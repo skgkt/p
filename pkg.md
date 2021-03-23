@@ -1,0 +1,44 @@
+# pkg
+
+- base
+    - text
+        - sjis
+        - utf8
+    - time
+    - log
+    - i18n
+    - security
+        - authentication
+        - authorization
+    - encoding
+        - csv
+        - json
+        - yaml
+    - net
+        - sftp
+        - http
+        - mail
+            - smtp
+    - database
+        - postgresql
+        - redis
+    - file
+        - local
+        - storage
+- domain
+    - type
+        - `<context>`
+    - model
+        - `<context>`
+    - service
+    - repository
+- application
+    - service
+- ui
+    - cli
+    - web
+        - controller
+        - filter
+        - listener
+        - presentation
+        - validation
