@@ -15,6 +15,7 @@
         - json
         - yaml
     - net
+        - proxy
         - sftp
         - http
         - mail
