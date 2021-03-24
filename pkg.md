@@ -1,19 +1,50 @@
 # pkg
 
-- base
-    - text
-        - sjis
-        - utf8
-    - time
+- domain
+    - type
+        - `<context>`
+    - model
+        - `<context>`
+    - service
+    - repository
+- application / usecase
+    - `<context>`
+- ui
+    - cli
+        - parameter
+    - web
+        - datastructure (request-model/ response-model)
+        - controller
+        - filter
+        - listener
+        - presenter
+        - validation
+        - interactor
+- base (上記に分類されないもの)
+    - type
+        - text
+            - converter
+            - formatter
+            - utility
+            - sjis
+            - utf8
+        - number
+            - converter
+            - formatter
+            - utility
+        - collection
+            - utility
+        - time
+            - converter
+            - formatter
+            - utility
+    - time (型として以外で必要？)
     - log
     - i18n
     - security
         - authentication
         - authorization
-    - encoding
-        - csv
-        - json
-        - yaml
+- infrastructure
     - net
         - proxy
         - sftp
@@ -26,20 +57,5 @@
     - file
         - local
         - storage
-- domain
-    - type
-        - `<context>`
-    - model
-        - `<context>`
-    - service
-    - repository
-- application
-    - service
-- ui
-    - cli
-    - web
-        - controller
-        - filter
-        - listener
-        - presentation
-        - validation
+    - external
+        - `<external-service>`
