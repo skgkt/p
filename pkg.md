@@ -9,9 +9,13 @@
     - repository
 - application / usecase
     - `<context>`
+    - batch
+        - job
+        - task
 - ui
     - cli
         - parameter
+        - command
     - web
         - datastructure (request-model/ response-model)
         - controller
